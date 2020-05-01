@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<hmtl>
+    <head>
+        <title>Login Form Design</title>
+        <link rel = "stylesheet" type="text/css" href="style.css">
+        <body>
+            <header>
+                <div class="main">
+                    <img src="UBT Logo.png" alt="" width="100px" height="100px"/>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </header>
+            <div class="loginbox">
+                <div class="form">
+                    <form class="register-form">
+                        <p>Username:</p>
+                        <input type="text" placeholder="User name">
+                        <p>Password:</p>
+                        <input type="text" placeholder="Password">
+                        <p>Email:</p>
+                        <input type="text" placeholder="Email">
+                        <button>Create</button>
+                        
+                    </form>
+                    <form class="login-form">
+                        <p>Username:</p>
+                        <input type="text"  placeholder="Username...">
+                        <p>Password:</p>
+                        <input type="password"  placeholder="Password...">
+                        <input type="submit" name="" value="Login">
+                        <p class="message">Not Registered?<a href="#">Register</a></p>
+                    </form>
+                </div>
+                <script src='https://code.jquery.com/jquery-3.5.0.min.js'>
+                </script>
+    
+                <script>
+                    $('.message a').click(function(){
+                    $('form').animate({height: "toggle", opacity: "toggle"}, "slow");    
+                    });
+                </script>
+            </div>
+            <div class="ubt">
+                <h3>UBT-Prill 2020 <a href="">Link</a> </h3>
+            </div>
+        </body>
+    </head>    
+</hmtl>
+
